@@ -2,7 +2,7 @@ src='''Source Here'''
 forest = []
 forest = src.splitlines()
 
-def treeLocater():
+def treeLocator():
     hits = 0
     over = 0
     for i in forest:
@@ -16,4 +16,4 @@ def treeLocater():
     print(hits)
     
     
-treeLocater()
+treeLocator()
